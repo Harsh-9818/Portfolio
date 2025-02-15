@@ -1,6 +1,6 @@
 import React from "react";
 import AtelierImg from "/src/assets/ProjImg/Atelier.png";
-import PortfolioImg from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeitGv7vPj2mPXRWNbUqD4nNWEol2S2-gFodVeYj0xNyF9O2LLQxWQYcl_bTnQFHnr7yM&usqp=CAU"
+// import PortfolioImg from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeitGv7vPj2mPXRWNbUqD4nNWEol2S2-gFodVeYj0xNyF9O2LLQxWQYcl_bTnQFHnr7yM&usqp=CAU"
 import AmazonImg from "/src/assets/ProjImg/Amazon.png";
 import SpotifyImg from "/src/assets/ProjImg/Spotify.png";
 
@@ -66,7 +66,7 @@ function Project(){
                     techStack={["React", "TailwindCSS", "Framer motion", "Javascript"]} 
                     liveLink="#" 
                     codeLink="https://github.com/Harsh-9818/Portfolio" 
-                    image={PortfolioImg}
+                    image="https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg"
                 />
                 <ProjectCard 
                     title="AMAZONE CLONE" 
