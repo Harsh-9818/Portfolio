@@ -1,6 +1,6 @@
 import React from "react";
 import AtelierImg from "/src/assets/ProjImg/Atelier.png";
-import PortfolioImg from "/src/assets/ProjImg/TechStack.png";
+import PortfolioImg from "/src/assets/ProjImg/TechStack.png"
 import AmazonImg from "/src/assets/ProjImg/Amazon.png";
 import SpotifyImg from "/src/assets/ProjImg/Spotify.png";
 
