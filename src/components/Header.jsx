@@ -7,7 +7,7 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
 
     return (
-        <div className='h-16 w-full flex items-center justify-between border-b border-black px-6 lg:px-32'>
+        <div className='fixed top-0 left-0 w-full bg-white z-50 h-16 flex items-center justify-between border-b border-black px-6 lg:px-32'>
 
             {/* Logo Section */}
             <div className='font-bold text-xl'>
@@ -19,13 +19,13 @@ function Header() {
                 <Link to="about">About</Link>
                 <Link to="stack">Tech Stack</Link>
                 <Link to="project">Projects</Link>
-                <Link to="resume">Resume</Link>
+                <a href="/harsh_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
 
             {/* Mobile Menu Button (Only Visible on Small Screens) */}
             <div className='lg:hidden'>
                 <button onClick={() => setIsOpen(!isOpen)}>
-                    {isOpen ? <X size={28} /> : <Menu size={28} />} 
+                    {isOpen ? <X size={28} /> : <Menu size={28 } />} 
                 </button>
             </div>
 
@@ -35,7 +35,7 @@ function Header() {
                     <Link to="about" onClick={() => setIsOpen(false)}>About</Link>
                     <Link to="stack" onClick={() => setIsOpen(false)}>Tech Stack</Link>
                     <Link to="project" onClick={() => setIsOpen(false)}>Projects</Link>
-                    <Link to="resume" onClick={() => setIsOpen(false)}>Resume</Link>
+                    <a href="/harsh_resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Resume</a>
                 </div>
             )}
         </div>

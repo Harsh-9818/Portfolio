@@ -1,10 +1,12 @@
+import Footer from "./Footer"
+
 function About() {
     return(
         <div className="bg-white h-[calc(100vh-56px)]">
 
             {/* heading */}
             <div className="flex justify-center flex-col items-center">
-                <h1 className="mt-20 text-3xl font-bold border border-black py-4 px-22 rounded">ABOUT ME</h1>
+                <h1 className="mt-32 text-4xl font-bold border border-black py-4 px-22 rounded">ABOUT ME</h1>
             </div>
 
             {/* about */}
@@ -35,7 +37,7 @@ function About() {
                 </div>
 
                 {/* social profile */}
-                <div className="mt-32 mx-auto">
+                <div className="mt-32 mx-auto ">
                     <h1 className="font-semibold text-lg">Social Profiles:</h1>
                     <ul className="list-disc list-inside mt-3 font-semibold">
                         <li><a href="https://github.com/Harsh-9818" 
@@ -63,6 +65,9 @@ function About() {
                         <li>harsh.tanwar9818@gmail.com</li>
                     </ul>
                 </div>
+            </div>
+            <div className="mt-32"> 
+                <Footer/>
             </div>
         </div>
     )

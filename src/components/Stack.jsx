@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 // Tech stack data (Icon URLs + Labels)
 const techStack = [
@@ -18,7 +19,7 @@ const techStack = [
 
 const Portfolio = () => {
   return (
-    <div className="bg-white min-h-[calc(100vh-56px)] flex flex-col items-center p-6 lg:p-12">
+    <div className="bg-white min-h-[calc(100vh-56px)] flex flex-col items-center mt-20">
 
       {/* Tech Stack Title */}
       <div className="text-center">
@@ -38,6 +39,9 @@ const Portfolio = () => {
         ))}
       </div>
 
+      <div className="w-full mt-48  ">
+        <Footer/>
+      </div>
     </div>
   );
 };
