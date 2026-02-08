@@ -4,6 +4,7 @@ import AtelierImg from "/src/assets/ProjImg/Atelier.png";
 import AmazonImg from "/src/assets/ProjImg/Amazon.png";
 import SpotifyImg from "/src/assets/ProjImg/Spotify.png";
 import VelforaImg from "/src/assets/ProjImg/Velfora.png";
+import EnhanceImg from "./src/assets/EnhanceImg.png";
 
 import { FaExternalLinkAlt, FaCode } from "react-icons/fa";
 import Footer from "./Footer";
@@ -72,6 +73,14 @@ function Project() {
           liveLink="https://velforaclothing.vercel.app/"
           codeLink="https://github.com/Harsh-9818/Velfora"
           image={VelforaImg}
+        />
+        <ProjectCard
+          title="AI IMAGE ENHANCER"
+          description="AI Image Enhancing Tool."
+          techStack={["ReactJs", "TailwindCSS", "PicWish API", "Node JS"]}
+          liveLink="https://enhancethroughai.vercel.app/"
+          codeLink="https://github.com/Harsh-9818/AI-Image-Enhancer"
+          image={EnhanceImg}
         />
         <ProjectCard
           title="ATELIER"
