@@ -4,7 +4,7 @@ import AtelierImg from "/src/assets/ProjImg/Atelier.png";
 import AmazonImg from "/src/assets/ProjImg/Amazon.png";
 import SpotifyImg from "/src/assets/ProjImg/Spotify.png";
 import VelforaImg from "/src/assets/ProjImg/Velfora.png";
-import EnhanceImg from "./src/assets/EnhanceImg.png";
+import EnhanceImg from "./src/assets/ProjImg/EnhanceImg.png";
 
 import { FaExternalLinkAlt, FaCode } from "react-icons/fa";
 import Footer from "./Footer";
